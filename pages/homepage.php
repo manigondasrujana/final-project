@@ -3,8 +3,8 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Todo Task Management</title>
-    <meta name="description" content="Todo Task Management">
+    <title>Todo Task Management Application</title>
+    <meta name="description" content="Todo Task Management Application">
     <meta name="author" content="SitePoint">
 
     <link rel="stylesheet" href="css/styles.css?v=1.0">
@@ -13,7 +13,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
     <style>
-    body {background-color: powderblue;}
+    body {
+   
+    background-image: url(http://i65.tinypic.com/2vkg9dd.jpg), url(http://i68.tinypic.com/s0vcqg.jpg);
+    background-position:left top, right top;
+background-repeat: no-repeat, repeat;
+background-size: 550px,450px, auto}
 h1   {color: blue;}
 h2    {color: red;}
 </style>
