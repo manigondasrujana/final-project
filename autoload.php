@@ -3,7 +3,7 @@ class Manage
 {
 	 public static function config()
     {
-		$data['site_name'] = 'Todo Task Management';
+		$data['site_name'] = 'Todo Task Management Application';
 		return $data;
     }
     public static function core($class)
