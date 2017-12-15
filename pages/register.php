@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Todo Task Management</title>
+    <title> Create your Todo Account </title>
     <meta name="description" content="Todo Task Management">
     <meta name="author" content="SitePoint">
     <link rel="stylesheet" href="css/styles.css?v=1.0">
@@ -19,16 +19,16 @@ $config = Manage::config();
 echo $config['site_name'];
 ?></h1>
 
-<h2> Create an Account</h2>
+<h2> Enter your Details Here</h2>
 <form action="index.php?page=accounts&action=register" method="post">
-    First name: <input type="text" name="fname" placeholder="first name"required><br>
-    Last name: <input type="text" name="lname"placeholder="lastname" required><br>
-    Email or username: <input type="email" name="email" placeholder="username"required><br>
-    Phone: <input type="tel" name="phone"placeholder="phone no" required><br>
-    Birthday: <input type="text" name="birthday" placeholder="yyyy-mm-dd" required><br>
-    Gender: <input type="radio" name="gender" value="male" checked="checked">Male <input type="radio" name="gender" value="female"> Female<br>
-    Password: <input type="password" name="password" required><br>
-    <input type="submit" value="Submit form">
+    First name: <input type="text" name="fname" placeholder="first name"required><br><br>
+    Last name: <input type="text" name="lname"placeholder="lastname" required><br><br>
+    Email or username: <input type="email" name="email" placeholder="username"required><br><br>
+    Phone: <input type="tel" name="phone"placeholder="phone no" required><br><br>
+    Birthday: <input type="text" name="birthday" placeholder="yyyy-mm-dd" required><br><br>
+    Gender: <input type="radio" name="gender" value="male" checked="checked">Male <input type="radio" name="gender" value="female"> Female<br><br>
+    Password: <input type="password" name="password" required><br><br>
+    <input type="submit" value="Save"><br>
 </form>
 
 <script src="js/scripts.js"></script>
