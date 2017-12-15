@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
 
-    <title>The HTML5 Herald</title>
-    <meta name="description" content="The HTML5 Herald">
+    <title>Todo Task Management Application</title>
+    <meta name="description" content="Todo Task Management Application">
     <meta name="author" content="SitePoint">
 
     <link rel="stylesheet" href="css/styles.css?v=1.0">
@@ -16,18 +16,36 @@
 </head>
 
 <body>
-<h1>All Accounts</h1>
+<h1> 
+<?php
 
-<h1> HI</h1>
+$config = Manage::config();
+echo $config['site_name'];
+?></h1>
+
+<h2>My Account</h2>
+
 
 <?php
-//this is how you print something
+$userID = $_SESSION["userID"];
+$user_data = accounts::findUserbyId($userID);
+?>
+
+<h1>Hi <?=$user_data->fname?></h1>
+								
+<ul>
+<li><a href="index.php?page=tasks&action=all">Todos</a>
+</li>
+<li>
+<a href="index.php?page=accounts&action=logout">Logout</a>
+</li>
+</ul>
+
+<?php
 
 print utility\htmlTable::genarateTableFromMultiArray($data);
 
-
 ?>
-
 
 <script src="js/scripts.js"></script>
 </body>
