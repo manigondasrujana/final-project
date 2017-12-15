@@ -6,7 +6,7 @@
     <title> Create your Todo Account </title>
     <meta name="description" content="Todo Task Management">
     <meta name="author" content="SitePoint">
-    <link rel="stylesheet" href="css/styles.css?v=1.0">
+   <link rel="stylesheet" href="css/styles.css?v=1.0">
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
     <![endif]-->
@@ -19,7 +19,7 @@ $config = Manage::config();
 echo $config['site_name'];
 ?></h1>
 
-<h2> Enter your Details Here</h2>
+<h2> Enter your details Here</h2>
 <form action="index.php?page=accounts&action=register" method="post">
     First name: <input type="text" name="fname" placeholder="first name"required><br><br>
     Last name: <input type="text" name="lname"placeholder="lastname" required><br><br>
