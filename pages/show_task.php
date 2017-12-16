@@ -24,7 +24,7 @@ echo $config['site_name'];
 $userID = $_SESSION["userID"];
 $user_data = accounts::findUserbyId($userID);
 ?>
-<h1>Hi <?=$user_data->fname?></h1>
+<h1> Hi <?=$user_data->fname?></h1>
 				
 <ul>
 <li><a href="index.php?page=accounts&action=all">My Account</a>
