@@ -18,9 +18,10 @@
     background-image: url(http://i66.tinypic.com/155taxe.jpg), url(http://i68.tinypic.com/s0vcqg.jpg);
     background-position:center, right top;
 background-repeat: no-repeat, repeat;
-background-size: 800px,600px, auto}
+background-size: 800px,600px, auto;
+}
 h1   {color: blue;}
-h2    {color: red;}
+h2    {color: crimson;}
 </style>
 </head>
 
