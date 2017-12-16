@@ -19,16 +19,18 @@ $config = Manage::config();
 echo $config['site_name'];
 ?></h1>
 
-<h2> Enter your details Here</h2>
-<form action="index.php?page=accounts&action=register" method="post">
-    First name: <input type="text" name="fname" placeholder="first name"required><br><br>
-    Last name: <input type="text" name="lname"placeholder="lastname" required><br><br>
-    Email or username: <input type="email" name="email" placeholder="username"required><br><br>
-    Phone: <input type="tel" name="phone"placeholder="phone no" required><br><br>
-    Birthday: <input type="text" name="birthday" placeholder="yyyy-mm-dd" required><br><br>
+<h2 style="color:darkblue"> Enter your details Here</h2>
+<form action="index.php?page=accounts&action=register" method="post" style="color:purple">
+<b><i><font size="4">
+    First name:<input type="text" name="fname" placeholder="first name"required size="30"><br><br>
+    Last name: <input type="text" name="lname"placeholder="lastname" required size="29"><br><br>
+    Email or username: <input type="email" name="email" placeholder="username"required size="21.5"><br><br>
+    Phone: <input type="tel" name="phone"placeholder="phone no" required size="33"><br><br>
+    Birthday: <input type="text" name="birthday" placeholder="yyyy-mm-dd" required size="30"><br><br>
     Gender: <input type="radio" name="gender" value="male" checked="checked">Male <input type="radio" name="gender" value="female"> Female<br><br>
-    Password: <input type="password" name="password" required><br><br>
+    Password: <input type="password" name="password" required size="30"><br><br>
     <input type="submit" value="Save"><br>
+   </font></i></b> 
 </form>
 
 <script src="js/scripts.js"></script>
