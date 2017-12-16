@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Todo Task Management Application</title>
-    <meta name="description" content="Todo Task Management Application">
+    <title>Todo Task Management</title>
+    <meta name="description" content="Todo Task Management">
     <meta name="author" content="SitePoint">
 
     <link rel="stylesheet" href="css/styles.css?v=1.0">
@@ -22,16 +22,15 @@
 $config = Manage::config();
 echo $config['site_name'];
 ?></h1>
-<h2>All Todos</h2>
+<h2>My Todos List</h2>
 
 <?php
 $userID = $_SESSION["userID"];
 $user_data = accounts::findUserbyId($userID); 
 ?>
 
-<h3>Hi <?=$user_data->fname?></h3>
 
-<ul>
+<ul><b><i><font size="4">
 <li><a href="index.php?page=accounts&action=all">My Account</a>
 </li>
 <li><a href="index.php?page=tasks&action=create">Add Todos</a>
@@ -39,13 +38,13 @@ $user_data = accounts::findUserbyId($userID);
 <li>
 <a href="index.php?page=accounts&action=logout">Logout</a>
 </li>
-</ul>
+</font></i></b></ul>
 
 <?php
 if(!empty($data)) {
 	print utility\htmlTable::genarateTableFromMultiArray($data);
 } else {
-	echo 'Data not found';
+	echo 'No Todos added';
 }
 ?>
 
