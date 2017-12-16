@@ -1,3 +1,10 @@
-body{ background-color: pink;}
+body{ 
+background-image: url(http://i68.tinypic.com/30hpqgj.jpg), url(http://i64.tinypic.com/23lh5wy.jpg);
+background-position:left top, right bottom;
+background-repeat: no-repeat, repeat;
+background-size: 700px,600px, auto;
+}
 p{ color:blue;}
-h1{ color : green; }
+h1{ color : purple; }
+
+
