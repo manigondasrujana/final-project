@@ -29,7 +29,7 @@ echo $config['site_name'];
     Birthday: <input type="text" name="birthday" placeholder="yyyy-mm-dd" required size="30"><br><br>
     Gender: <input type="radio" name="gender" value="male" checked="checked">Male <input type="radio" name="gender" value="female"> Female<br><br>
     Password: <input type="password" name="password" required size="30"><br><br>
-    <input type="submit" value="Save"><br>
+    <input type="submit" value=" Create Account"><br>
    </font></i></b> 
 </form>
 
