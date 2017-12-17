@@ -43,7 +43,7 @@ echo $config['site_name'];
     </div>
 </form>
 
-<h1  style="text-align:center"><a href="index.php?page=accounts&action=register"  style="color:crimson"> Create an Account </a></h1>
+<h1  style="text-align:center"><a href="index.php?page=accounts&action=register"  style="color:crimson"> Create a New Account </a></h1>
 <script src="js/scripts.js"></script>
 </body>
 </html>
