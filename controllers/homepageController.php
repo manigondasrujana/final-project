@@ -4,7 +4,7 @@ class homepageController extends http\controller
 {
     public static function show()
     {
-        $templateData['site_name'] = 'MY SITE';
+        $templateData['site_name'] = 'Todo Task Management Application';
 
 		    session_start();
 		    $templateData['userID'] = @$_SESSION["userID"];
