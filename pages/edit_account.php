@@ -31,8 +31,8 @@ echo $config['site_name'];
     Email: <input type="text" name="email" value="<?php echo $data->email; ?>"><br>
     Phone: <input type="text" name="phone" value="<?php echo $data->phone; ?>"><br>
     Birthday: <input type="text" name="birthday" value="<?php echo $data->birthday; ?>"><br>
-    Gender: <input type="text" name="gender" value="<?php echo $data->gender; ?>"><br>
-    <input type="submit" value="Submit form">
+    Gender: <input type="text" name="gender" value="<?php echo $data->gender; ?>"><br><br>
+    <input type="submit" value="Save"><br><br>
 </form>
 
 <a href="index.php?page=accounts&action=all"><button type="button">Back</button></a>
