@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Todo Task Management</title>
+    <title>Todo Task Management Application</title>
     <meta name="description" content="Todo Task Management">
     <meta name="author" content="SitePoint">
 
@@ -34,6 +34,7 @@ $user_data = accounts::findUserbyId($userID);
 <ul>
 <li><b><font size="5"><a href="index.php?page=tasks&action=all"> My Todos List </a></font></b>
 </li>
+
 </ul>
 
 <?php
