@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
 
-    <title>Todo Task Management Application</title>
-    <meta name="description" content="Todo Task Management Application">
+    <title>Todo Task Management</title>
+    <meta name="description" content="Todo Task Management">
     <meta name="author" content="SitePoint">
 
     <link rel="stylesheet" href="css/styles.css?v=1.0">
@@ -42,10 +42,10 @@ $user_data = accounts::findUserbyId($userID);
 </ul>
 
 <form action="index.php?page=tasks&action=save" method="post">
-	Title: <input type="text" name="title" id="title" required><br>
-	Body: <textarea name="body" id="body" required></textarea><br>
-	Is Done: <input type="checkbox" name="isdone" id="isdone" value="1"><br>
-    <input type="submit" value="Submit form">
+	Title: <input type="text" name="title" id="title" required><br><br>
+	Body: <textarea name="body" id="body" required></textarea><br><br>
+	Is Done: <input type="checkbox" name="isdone" id="isdone" value="1"><br><br>
+    <input type="submit" value="Save">
 </form>
 <a href="index.php?page=tasks&action=all">Back</a>
 <script src="js/scripts.js"></script>
