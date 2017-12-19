@@ -40,11 +40,13 @@ $user_data = accounts::findUserbyId($userID);
 </ul>
 
 <form action="index.php?page=tasks&action=store&id=<?php echo $data->id; ?>" method="post">
-	Title: <input type="text" name="title" id="title" value="<?php echo $data->title; ?>" required><br>
-	Body: <textarea name="body" id="body" required><?php echo $data->body; ?></textarea><br>
-	Is Done: <input type="checkbox" name="isdone" id="isdone" value="1" <?php if($data->isdone == '1'){echo 'checked="checked"';}?>><br>
+	Title: <input type="text" name="title" id="title" value="<?php echo $data->title; ?>" required><br><br>
+	Body: <textarea name="body" id="body" required><?php echo $data->body; ?></textarea><br><br>
+	Is Done: <input type="checkbox" name="isdone" id="isdone" value="1" <?php if($data->isdone == '1'){echo 'checked="checked"';}?>><br><br>
+
 	<input type="hidden" name="id" id="id" value="<?php echo $data->id; ?>">
-    <input type="submit" value="Submit form">
+ 
+    <input type="submit" value="Save"><br><br>
 </form>
 
 <a href="index.php?page=tasks&action=all">Back</a>
